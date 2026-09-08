@@ -5,21 +5,20 @@
 
   ## Two Clients
 
-   Script                      Configuration           Purpose
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   grass_desktop.js           accounts_desktop.json   Desktop client based on Windows executable analysis
-  ──────────────────────────  ──────────────────────  ───────────────────────────────────────────────────────────────
-   grass_mobile.js            accounts_mobile.json    Mobile-oriented client developed from native-library analysis
+| Script | Configuration | Purpose |
+|---|---|---|
+| `grass_desktop.js` | `accounts_desktop.json` | Desktop client based on Windows executable analysis |
+| `grass_mobile.js` | `accounts_mobile.json` | Mobile-oriented client developed from native-library analysis |
 
   Both currently start through H2, with WebSocket implementations retained in the code.
 
   ## Access
 
-  This is a paid private script.
+    This is a paid private script.
 
-  For licensing or access inquiries, contact:
+    For licensing or access inquiries, contact:
 
-  **Telegram:** https://t.me/roodrigato
+    **Telegram:** https://t.me/roodrigato
 
   ## Features
 
@@ -29,10 +28,6 @@
   - Per-device proxies. Assign separate proxy connections to individual devices.
   - Device registration and identity persistence. Generate or reuse signing credentials, register devices, and preserve
     identities across restarts.
-
-  - Signed check-in. Support for device-authenticated director requests using Ed25519 signatures.
-  - H2 CONNECT tunnels. Forward destination traffic bidirectionally, with backpressure handling to control buffering.
-  - HTTP request handling. Execute and deliver server-requested webcrawl operations.
 
   - Device-specific user agents. Load device identity settings from account configuration.
   - Automatic reconnection. Recover from connection failures with reconnect scheduling.
