@@ -18,7 +18,7 @@
 
     For licensing or access inquiries, contact:
 
-    **Telegram:** https://t.me/roodrigato
+**Telegram:** [@roodrigato](https://t.me/roodrigato)
 
   ## Features
 
